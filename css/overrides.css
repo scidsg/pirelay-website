@@ -1,0 +1,86 @@
+/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
+/* Please consider contributing! */
+
+/* Add your custom styles in this file... */
+
+@media (prefers-color-scheme: light) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+h1, h2 {
+	font-family: 'Serif', serif;
+}
+
+.intro {
+	text-align: center;
+    justify-content: center;
+    background: url('../design-system/images/intro/cover.png') center 75vh no-repeat;
+    background-size: 65%;
+    height: 100vh;
+}
+
+.intro .wrapper {
+	align-items: center;
+}
+
+.intro .btnGrp {
+	margin-bottom: 1rem;
+}
+
+.intro .btnGrp + p {
+	margin-bottom: 15vh;
+	font-size: .75rem;
+	opacity: .8;
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+	.intro {
+	    background-size: 75%;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+	.intro {
+	    background-size: 85%;
+
+	}
+
+	.intro {
+	    background-size: 85%;
+	    background-position-y: 75vh;
+	}
+
+	.intro .btnGrp + p {
+		margin-bottom: 18vh;
+		font-size: .75rem;
+		opacity: .8;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.intro {
+	    background-size: 95%;
+	    background-position-y: 80vh;
+	}
+
+	.intro .btnGrp + p {
+		margin-bottom: 10vh;
+	}
+}
