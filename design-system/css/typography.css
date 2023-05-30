@@ -118,7 +118,7 @@ article h6 {
 h1 {
   font-size: var(--font-size-1);
   margin-top: var(--spacing-base);
-  margin-bottom: var(--spacing-base);
+  margin-bottom: var(--spacing-small);
 }
 
 h3 {
