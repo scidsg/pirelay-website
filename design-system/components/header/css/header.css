@@ -72,6 +72,7 @@ header .logo {
 header .logo img {
   height: 40px;
   margin: 0;
+  width: auto;
 }
 
 header a {
