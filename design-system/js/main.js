@@ -1,10 +1,7 @@
 const headings = [
-    'Own Your Work',
-    'Take Control of Your Content',
-    'Cultivate Your Creativity',
-    'Get Your Message Out',
-    'Delectable Data Sovereignty',
-    'Release Your Inner Writer'
+    'Help people stay safe online',
+    'The Private Human Network',
+    'Help the world access the uncensored internet'
     // Add more headings here if desired
 ];
 

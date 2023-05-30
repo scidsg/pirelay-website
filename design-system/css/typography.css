@@ -28,6 +28,12 @@
        url("../fonts/mono/WOFF/IBMPlexMono-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Cursive";
+  src: url("../fonts/handwriting/LaBelleAurore-Regular.woff2") format("woff2"),
+       url("../fonts/handwriting/LaBelleAurore-Regular.woff") format("woff");
+}
+
 @media (prefers-color-scheme: light) {
   h1, h2, h3, h4, h5, h6, p, q {
     color: var(--color-dark);
