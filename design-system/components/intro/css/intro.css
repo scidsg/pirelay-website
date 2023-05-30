@@ -31,7 +31,7 @@
 }
 
 .intro .btn {
-  margin-top: var(--spacing-medium);
+  margin-top: var(--spacing-small);
 }
 
 .articleIntro .category + h2 {
