@@ -24,8 +24,8 @@
   position: relative;
 }
 
-.intro h2 {
-  width: 70%;
+.intro h1 {
+  width: 80%;
   line-height: var(--line-height-tighter);
   margin-top: 0 !important;
 }
@@ -100,26 +100,15 @@ p.hint a {
   opacity: 0 !important;
 }
 
-@media only screen and (max-width: 1280px) {
-  .intro h2 {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .intro h2 {
-    width: 75%;
-  }
-}
 
 @media only screen and (max-width: 960px) {
-  .intro h2 {
+  .intro h1 {
     width: 85%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .intro h2 {
+  .intro h1 {
     width: 100%;
   }
 

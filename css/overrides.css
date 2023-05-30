@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 .intro .btnGrp + p {
-	margin-bottom: 15vh;
+	margin-bottom: 10vh;
 	font-size: .75rem;
 	opacity: .8;
 }
