@@ -68,6 +68,10 @@ h1, h2 {
 	    background-position-y: 75vh;
 	}
 
+	.intro h1 + p {
+		font-size: 1rem;
+	}
+
 	.intro .btnGrp + p {
 		margin-bottom: 18vh;
 		font-size: .75rem;
