@@ -27,11 +27,12 @@ h1, h2 {
 	align-items: center;
 }
 
-.intro .btnGrp {
-	margin-bottom: 1rem;
+.intro .code {
+	margin: 1rem 0;
+	font-size: .925rem;
 }
 
-.intro .btnGrp + p {
+.intro .code + p {
 	margin-bottom: 10vh;
 	font-size: .75rem;
 	opacity: .8;
@@ -72,6 +73,10 @@ h1, h2 {
 		font-size: .75rem;
 		opacity: .8;
 	}
+
+	.intro .code {
+		font-size: .825rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -80,7 +85,8 @@ h1, h2 {
 	    background-position-y: 80vh;
 	}
 
-	.intro .btnGrp + p {
+	.intro .code + p {
 		margin-bottom: 10vh;
 	}
+
 }
