@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 .intro .code {
-	margin: 1rem 0;
+	margin: .625rem 0 1rem 0;
 	font-size: .925rem;
 }
 
