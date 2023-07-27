@@ -28,6 +28,7 @@
   width: 80%;
   line-height: var(--line-height-heading);
   margin-top: 0 !important;
+  margin-bottom: 1rem;
 }
 
 .intro .btn {
