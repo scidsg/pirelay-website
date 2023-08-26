@@ -11,8 +11,20 @@
 
 }
 
+.btn {
+	border-radius: var(--radius-round);
+}
+
 h1, h2 {
 	font-family: 'Cursive', sans-serif;
+}
+
+header nav .btn {
+	margin: inherit;
+}
+
+header .logo {
+	margin-right: 1.5rem;
 }
 
 .intro {
@@ -91,6 +103,10 @@ h1, h2 {
 
 	.intro .code + p {
 		margin-bottom: 10vh;
+	}
+
+	header .logo img {
+		height: 36px;
 	}
 
 }
