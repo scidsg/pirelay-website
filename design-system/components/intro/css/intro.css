@@ -19,15 +19,20 @@
 }
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   position: relative;
+}
+
+.intro .wrapper {
+  margin-top: 10rem;
+  margin-bottom: -2.5rem;
 }
 
 .intro h1 {
   width: 80%;
   line-height: var(--line-height-heading);
-  margin-top: 0 !important;
+  margin-top: 4rem !important;
   margin-bottom: 1rem;
 }
 

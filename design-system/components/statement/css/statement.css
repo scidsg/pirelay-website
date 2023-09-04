@@ -9,6 +9,7 @@
 .statementContainer {
   display: flex;
   justify-content: center;
+  padding: calc(var(--spacing-large) * 5) 0 calc(var(--spacing-large) * 1.125) 0 !important;
 }
 
 .statement {
@@ -22,6 +23,9 @@
 
 .statement p {
   font-size: var(--font-size-4);
+  line-height: var(--line-height-narrow);
+  text-align: justify;
+  text-justify: distribute;
 }
 
 @media only screen and (max-width: 960px) {

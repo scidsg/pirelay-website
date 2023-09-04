@@ -5,9 +5,59 @@
 
 @media (prefers-color-scheme: light) {
 
+  .icon.smart {
+    background-image: url("../design-system/images/icons/lm-smart.png") !important;
+  }
+  .icon.update {
+    background-image: url("../design-system/images/icons/lm-updates.png") !important;
+  }
+  .icon.setup {
+    background-image: url("../design-system/images/icons/lm-settings.png") !important;
+  }
+  .icon.smart {
+    background-image: url("../design-system/images/icons/lm-smart.png") !important;
+  }
+  .icon.home {
+    background-image: url("../design-system/images/icons/lm-home.png") !important;
+  }
+  .icon.paper {
+    background-image: url("../design-system/images/icons/lm-paper.png") !important;
+  }
+  .icon.config {
+    background-image: url("../design-system/images/icons/lm-config.png") !important;
+  }
+  .icon.tor {
+    background-image: url("../design-system/images/icons/lm-tor.png") !important;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
+
+  .icon.smart {
+    background-image: url("../design-system/images/icons/dm-smart.png") !important;
+  }
+  .icon.update {
+    background-image: url("../design-system/images/icons/dm-updates.png") !important;
+  }
+  .icon.setup {
+    background-image: url("../design-system/images/icons/dm-settings.png") !important;
+  }
+  .icon.smart {
+    background-image: url("../design-system/images/icons/dm-smart.png") !important;
+  }
+  .icon.home {
+    background-image: url("../design-system/images/icons/dm-home.png") !important;
+  }
+  .icon.paper {
+    background-image: url("../design-system/images/icons/dm-paper.png") !important;
+  }
+  .icon.config {
+    background-image: url("../design-system/images/icons/dm-config.png") !important;
+  }
+  .icon.tor {
+    background-image: url("../design-system/images/icons/dm-tor.png") !important;
+  }
 
 }
 
@@ -30,9 +80,11 @@ header .logo {
 .intro {
 	text-align: center;
     justify-content: center;
-    background: url('../design-system/images/intro/cover.png') center 75vh no-repeat;
-    background-size: 65%;
-    height: 100vh;
+}
+
+.intro img {
+	width: 65%;
+	margin-top: 5rem;
 }
 
 .intro .wrapper {
@@ -45,7 +97,7 @@ header .logo {
 }
 
 .intro .code + p {
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 	font-size: .75rem;
 	opacity: .8;
 }
@@ -59,8 +111,8 @@ header .logo {
 }
 
 @media only screen and (max-width: 960px) {
-	.intro {
-	    background-size: 75%;
+	.intro img {
+	    width: 75%;
 
 	}
 }
@@ -70,15 +122,10 @@ header .logo {
 }
 
 @media only screen and (max-width: 640px) {
-	.intro {
-	    background-size: 85%;
+	.intro img {
+	    width: 85%;
 
-	}
-
-	.intro {
-	    background-size: 85%;
-	    background-position-y: 75vh;
-	}
+	} 
 
 	.intro h1 + p {
 		font-size: 1rem;
@@ -96,9 +143,8 @@ header .logo {
 }
 
 @media only screen and (max-width: 480px) {
-	.intro {
-	    background-size: 95%;
-	    background-position-y: 80vh;
+	.intro img {
+	    width: 95%;
 	}
 
 	.intro .code + p {
