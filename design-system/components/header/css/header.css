@@ -205,7 +205,7 @@ nav .badge {
     top: 72px;
     width: max-content;
     z-index: 1;
-    padding: var(--spacing-small) 0;
+    padding: var(--spacing-small) 0 var(--spacing-base) 0;
     align-items: flex-start;
     border-radius: var(--radius-soft);
   }
