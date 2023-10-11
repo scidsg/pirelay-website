@@ -93,7 +93,7 @@ header .logo {
 
 .intro .code {
 	margin: .625rem 0 1rem 0;
-	font-size: .925rem;
+	font-size: .825rem;
 }
 
 .intro .code + p {
@@ -138,7 +138,7 @@ header .logo {
 	}
 
 	.intro .code {
-		font-size: .825rem;
+/*		font-size: .825rem;*/
 	}
 }
 
